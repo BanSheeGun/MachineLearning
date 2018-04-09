@@ -16,7 +16,9 @@
 
 ### test.py
 识别图片的实例。
+
 ![test_x](https://raw.githubusercontent.com/BanSheeGun/MachineLearning/master/pic/6.png)
+
 ![test_x](https://raw.githubusercontent.com/BanSheeGun/MachineLearning/master/pic/7.png)
 
 
