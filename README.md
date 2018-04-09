@@ -16,8 +16,8 @@
 
 ### test.py
 识别图片的实例。
-![test_x](https://raw.githubusercontent.com/BanSheeGun/VisualMachineLearning/master/pic/6.png)
-![test_x](https://raw.githubusercontent.com/BanSheeGun/VisualMachineLearning/master/pic/7.png)
+![test_x](https://raw.githubusercontent.com/BanSheeGun/MachineLearning/master/pic/6.png)
+![test_x](https://raw.githubusercontent.com/BanSheeGun/MachineLearning/master/pic/7.png)
 
 
 ## LinearRegression
@@ -28,11 +28,11 @@
 ### test_x.py
 拟合一个一次函数的图像化实例。
 
-![test_x](https://raw.githubusercontent.com/BanSheeGun/VisualMachineLearning/master/pic/2.png)
+![test_x](https://raw.githubusercontent.com/BanSheeGun/MachineLearning/master/pic/2.png)
 ### test_x2.py
 拟合一个二次函数的图像化实例。
 
-![test_x2](https://raw.githubusercontent.com/BanSheeGun/VisualMachineLearning/master/pic/3.png)
+![test_x2](https://raw.githubusercontent.com/BanSheeGun/MachineLearning/master/pic/3.png)
 
 ## LogisticRegression
 逻辑回归
@@ -41,11 +41,11 @@
 ### test_x.py
 以一次函数为分界线的分类的图像化实例。
 
-![test_x](https://raw.githubusercontent.com/BanSheeGun/VisualMachineLearning/master/pic/5.png)
+![test_x](https://raw.githubusercontent.com/BanSheeGun/MachineLearning/master/pic/5.png)
 ### test_circle.py
 以椭圆为分界线的分类的图像化实例。
 
-![test_circle](https://raw.githubusercontent.com/BanSheeGun/VisualMachineLearning/master/pic/4.png)
+![test_circle](https://raw.githubusercontent.com/BanSheeGun/MachineLearning/master/pic/4.png)
 
 ## K-means
 K-means 算法
@@ -53,4 +53,4 @@ K-means 算法
 ### kmeans.py
 K-means 算法的代码。
 
-![k-means](https://raw.githubusercontent.com/BanSheeGun/VisualMachineLearning/master/pic/1.png)
+![k-means](https://raw.githubusercontent.com/BanSheeGun/MachineLearning/master/pic/1.png)
