@@ -1,5 +1,23 @@
-# VisualMachineLearning
-可视化机器学习。运用 Python 的 matplotlib 库和 numpy 库，将一些简单的机器学习实例以图像的方式呈现出来。
+# MachineLearning
+机器学习。运用 Python 的 matplotlib 库和 numpy 库，将一些简单的机器学习实例以图像的方式呈现出来。
+
+
+## NeuralNetwork
+神经网络
+
+### tools/tool.py
+读取图像的工具
+
+### VerCodeImg
+训练集与测试集
+
+### nnCalc.py
+神经网络的代码，使用梯度下降算法
+
+### test.py
+识别图片的实例。
+![test_x](https://raw.githubusercontent.com/BanSheeGun/VisualMachineLearning/master/pic/6.png)
+![test_x](https://raw.githubusercontent.com/BanSheeGun/VisualMachineLearning/master/pic/7.png)
 
 
 ## LinearRegression
