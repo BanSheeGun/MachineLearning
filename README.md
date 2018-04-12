@@ -21,6 +21,10 @@
 
 ![test_x](https://raw.githubusercontent.com/BanSheeGun/MachineLearning/master/pic/7.png)
 
+### test_handwritten.py
+识别手写数字的实例。数据来源于 UCI 数据库。
+
+![test_x](https://raw.githubusercontent.com/BanSheeGun/MachineLearning/master/pic/8.png)
 
 ## LinearRegression
 线性回归
