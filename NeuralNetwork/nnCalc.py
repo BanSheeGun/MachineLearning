@@ -11,6 +11,14 @@ def add_one(x):
     return np.concatenate((one, x), axis=1)
 
 
+def set_zeros(x):
+    res = []
+    for i in x:
+        zero = np.matrix(np.zeros((1, i.shape[1])))
+        res.append(np.concatenate((zero, i[1:]), axis=0))
+    return res
+
+
 def random_matrix(size):
     return np.matrix(np.random.rand(size[0], size[1])) / size[0]
 
@@ -18,6 +26,7 @@ def random_matrix(size):
 def cost_function(x, theta, y, lam=0):
     n_l = len(theta)
     n_m = len(x)
+    theta_ze = set_zeros(theta)
     a = [add_one(x)]
     for i in range(n_l):
         theta_now = theta[i]
@@ -25,7 +34,11 @@ def cost_function(x, theta, y, lam=0):
         a.append(add_one(sigmoid(a_tmp)))
     j = np.multiply(y, np.log(a[-1][:, 1:])) \
         + np.multiply(1 - y, np.log(1 - a[-1][:, 1:]))
-    j = -np.sum(j) / n_m
+    j = -np.sum(j)
+    for i in theta_ze:
+        j += lam * np.sum(np.multiply(i, i)) / 2
+    j /= n_m
+
     det = [[] for _ in range(n_l + 1)]
     det[-1] = a[-1][:, 1:] - y
     for i in range(n_l - 1, 0, -1):
@@ -36,6 +49,8 @@ def cost_function(x, theta, y, lam=0):
     for i in range(n_l):
         i = n_l - i - 1
         theta_grad[i] = a[i].T * det[i+1] / n_m
+    for i in range(n_l):
+        theta_grad[i] -= np.multiply(lam, theta_ze[i])
     return j, theta_grad
 
 

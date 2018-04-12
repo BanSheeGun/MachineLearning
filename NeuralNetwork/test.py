@@ -7,7 +7,7 @@ import matplotlib.image as mpimg
 
 x, y = tl.read_images(r"VerCodeImg\trainimg")
 sizes = [[301, 100], [101, 36]]
-t, x, y = nC.learn(x, y, sizes, itor=5000, al=0.1)
+t, x, y = nC.learn(x, y, sizes, itor=3000, al=0.1, lam=0.01)
 plt.title("learn")
 plt.plot(x, y, 'b')
 plt.show()
