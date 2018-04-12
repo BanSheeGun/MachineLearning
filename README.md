@@ -11,6 +11,9 @@
 ### VerCodeImg
 训练集与测试集
 
+### Handwritten
+手写数据训练集
+
 ### nnCalc.py
 神经网络的代码，使用梯度下降算法
 
